@@ -158,6 +158,7 @@ function searchMenu() {
     keyword.includes("tom yam seafood") ||
     keyword.includes("soto") ||
     keyword.includes("bebek") ||
+    keyword.includes("nasi goreng") ||
     keyword.includes("ikan") ||
     keyword.includes("ikan lada hitam") ||
     keyword.includes("ikan asam manis") ||
