@@ -204,7 +204,7 @@ body {
 }
 
 .landing-page .content {
-  max-width: 600px;
+  max-width: 450px;
   padding: 1.4rem 7%;
   text-align: left;
 }
@@ -385,7 +385,7 @@ body {
 }
 
 /* HP (≤ 450px) */
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .menu-grid {
     grid-template-columns: repeat(2, 1fr); /* jadi 2 kolom di HP */
   }
