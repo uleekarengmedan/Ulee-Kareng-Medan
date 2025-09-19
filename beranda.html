@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi Ulee Kareng & Gayo</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="img/logo ulee kareng.jpg" alt="Logo Kedai Kopi" />
+        <span>Kedai Kopi <strong>Ulee Kareng & Gayo</strong></span>
+      </div>
+
+       <div class="navbar-extra">   
+    <input type="text" placeholder="Cari menu..." id="searchInput">
+    <button onclick="searchMenu()">Cari</button>
+  </div>
+  <!-- tombol hamburger -->
+  <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+</div>
+</div>
+
+    </nav>
+    <!-- Daftar Menu -->
+    <section class="menu-section">
+      <h2>DAFTAR MENU</h2>
+      <div class="menu-grid">
+        <button
+          class="menu-btn panas"
+          onclick="location.href='minuman-panas.html'"
+          id="menu-btn"
+        >
+          Minuman Panas
+        </button>
+
+        <button
+        class="menu-btn dingin"
+        onclick="location.href='minuman-dingin.html'"
+        id="menu-btn"
+        >
+        Minuman Dingin
+      </button>
+      <button
+        class="menu-btn makanan"
+        onclick="location.href='makanan-utama.html'"
+        id="menu-btn"
+      >
+        Aneka Makanan
+      </button>
+      
+        <button
+        class="menu-btn sarapan"
+        onclick="location.href='sarapan.html'"
+        id="menu-btn"
+        >
+        Sarapan Pagi
+      </button>
+      
+         <button
+          class="menu-btn mie"
+          onclick="location.href='aneka-mie.html'"
+          id="menu-btn"
+        >
+          Aneka Mie
+        </button>
+       
+        
+         <button
+          class="menu-btn cemilan"
+          onclick="location.href='cemilan.html'"
+          id="menu-btn"
+        >
+          Cemilan
+        </button>
+      
+      </div>
+    </section>
+
+    <!-- Footer -->
+  <footer>
+  <div class="footer-content">
+    <!-- Jam Buka -->
+    <div class="opening-hours">
+      <h3>Jam Buka</h3>
+      <p>Senin - Minggu: 07.00 Wib - 23.00 Wib</p>
+    </div>
+
+    <!-- Sosial Media -->
+    <div class="social-media">
+      <div class="icons">
+        <a href="https://wa.me/6285261544483" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/uleekarengmedan?igsh=b203YjQ5dGhyZjl4" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/photo/?fbid=748658426383721&set=a.748658386383725" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p>&copy; 2025 Kedai Kopi Ulee Kareng & Gayo | Created by Aguskurniawan
+        Lase</p>
+    </div>
+  </div>
+  </footer>
+        
+     
+
+       <!-- Script -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Kedai Kopi Ulee Kareng dan Gayo</title>
+
+    <!-- Fonts -->
+     <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+    <img src="img/logo ulee kareng.jpg" alt="Logo Kedai Kopi" />
+    <span>Kedai Kopi <strong>Ulee Kareng & Gayo</strong></span>
+  </div>
+      <div class="navbar-nav">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="beranda.html">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">   
+    <input type="text" placeholder="Cari menu..." id="searchInput">
+    <button onclick="searchMenu()">Cari</button>
+  </div>
+  <!-- tombol hamburger -->
+  <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+</div>
+</div>
+
+    </nav>
+    <!-- Landing Page -->
+    <section class="landing-page" id="home">
+      <main class="content">
+        <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+        <p>Di Kedai Kopi Ulee Kareng dan Gayo</p>
+        <a href="beranda.html" class="cta">Lihat Menu</a>
+
+      </main>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/joki.jpg" alt="Tentang Kami" />
+          <img src="img/foto dalam4.jpg" alt="Tentang kami"/>
+           <img src="img/foto dalam1.jpg" alt="Tentang kami"/>
+            <img src="img/foto dalam3.jpg" alt="Tentang kami"/>
+        </div>
+        <class class="content">
+          <h3>Kenapa memilih kopi kami</h3>
+          <p>
+            Kedai Kopi Ulee Kareng & Gayo adalah tempat ngopi legendaris di
+            Medan yang menghadirkan cita rasa kopi khas Aceh. Kami menyajikan
+            berbagai pilihan kopi seperti Ulee Kareng, Gayo, Sanger, hingga
+            minuman modern yang diracik dengan sepenuh hati.
+          </p>
+          <p>
+            Sejak awal berdiri, kedai ini menjadi tempat berkumpul,
+            bercengkrama, dan menikmati suasana hangat bersama teman maupun
+            keluarga. Kami percaya, secangkir kopi terbaik mampu menciptakan
+            banyak cerita.
+
+ 
+          Selain kopi, kami juga menawarkan beragam pilihan minuman hangat maupun dingin, 
+          serta makanan pendamping yang bisa menemani waktu santai maupun pertemuan Anda.
+           Suasana nyaman dengan sentuhan modern-tradisional kami hadirkan agar setiap
+            pelanggan merasa betah berlama-lama di kedai kami.
+ Kami berkomitmen untuk terus menjaga kualitas rasa, pelayanan ramah, 
+              serta harga yang terjangkau. Bagi kami, setiap tamu adalah keluarga.
+               Mari bergabung dan rasakan sendiri pengalaman menikmati kopi terbaik
+                dari Aceh hanya di Kedai Kopi Ulee Kareng & Gayo
+          </p>
+       
+            </class>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2>DAFTAR MENU</h2>
+      <div class="menu-grid">
+        <button
+          class="menu-btn panas"
+          onclick="location.href='minuman-panas.html'"
+          id="menu-btn"
+        >
+          Minuman Panas
+        </button>
+        <button
+          class="menu-btn dingin"
+          onclick="location.href='minuman-dingin.html'"
+          id="menu-btn"
+        >
+          Minuman Dingin
+        </button>
+        <button
+          class="menu-btn makanan"
+          onclick="location.href='makanan.html'"
+          id="menu-btn"
+        >
+          Makanan
+        </button>
+
+        <button
+          class="menu-btn snack"
+          onclick="location.href='cemilan.html'"
+          id="menu-btn"
+        >
+          Cemilan
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+  <h2>Kontak <span>Kami</span></h2>
+  <p>
+    Kami selalu senang mendengar dari Anda!  
+    Apakah ingin memesan meja, menanyakan menu, atau memberikan masukan,  
+    jangan ragu untuk menghubungi kami melalui kontak di bawah ini.
+  </p>
+
+  <p>
+    Terima kasih telah menjadi bagian dari keluarga besar  
+    <strong>Kedai Kopi Ulee Kareng & Gayo</strong>.  
+    Kami tunggu kunjungan Anda!
+  </p>
+
+
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127873.5122465706!2d98.54900417151478!3d3.567700487360245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312fdba8ada7b9%3A0xf70ceaec6c556121!2sKeude%20Kupie%20Ulee%20Kareng%20%26%20Gayo%20II!5e0!3m2!1sen!2sid!4v1703593451234"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+
+       
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+  <div class="footer-content">
+    <!-- Jam Buka -->
+    <div class="opening-hours">
+      <h3>Jam Buka</h3>
+      <p>Senin - Minggu: 07.00 Wib - 23.00 Wib</p>
+    </div>
+
+    <!-- Sosial Media -->
+    <div class="social-media">
+      <h3>Ikuti Kami</h3>
+      <div class="icons">
+        <a href="https://wa.me/6285261544483" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/uleekarengmedan?igsh=b203YjQ5dGhyZjl4" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/photo/?fbid=748658426383721&set=a.748658386383725" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+      </div>
+      <p>Ikuti kami di media sosial untuk update terbaru ☕</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Kedai Kopi Ulee Kareng & Gayo | Created by Aguskurniawan Lase</p>
+  </div>
+</footer>
+
+
+    <!-- Script -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JavaScript -->
+    <script src="/js/script.js" defer></script>
+   
+  </body>
+</html>
