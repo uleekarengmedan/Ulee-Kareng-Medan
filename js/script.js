@@ -145,6 +145,7 @@ function searchMenu() {
   } else if (
     keyword.includes("nasi") ||
     keyword.includes("nasi ayam penyet") ||
+     keyword.includes("ayam penyet") ||
     keyword.includes("nasi ayam sambel ijo") ||
     keyword.includes("nasi ayam lada hitam") ||
     keyword.includes("nasi ayam asam manis") ||
