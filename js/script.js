@@ -129,11 +129,6 @@ function searchMenu() {
   ) {
     window.location.href = "cemilan.html";
   } else if (
-    keyword.includes("nasi goreng") ||
-    keyword.includes("nasi kuning")
-  ) {
-    window.location.href = "nasgor.html";
-  } else if (
     keyword.includes("ifumie") ||
     keyword.includes("indomie") ||
     keyword.includes("kwetiaw") ||
@@ -146,7 +141,7 @@ function searchMenu() {
   } else if (
     keyword.includes("nasi") ||
     keyword.includes("nasi ayam penyet") ||
-     keyword.includes("ayam penyet") ||
+    keyword.includes("ayam penyet") ||
     keyword.includes("nasi ayam sambel ijo") ||
     keyword.includes("nasi ayam lada hitam") ||
     keyword.includes("nasi ayam asam manis") ||
@@ -160,7 +155,7 @@ function searchMenu() {
     keyword.includes("tom yam seafood") ||
     keyword.includes("soto") ||
     keyword.includes("bebek") ||
-       keyword.includes("capcay") ||
+    keyword.includes("capcay") ||
     keyword.includes("nasi goreng") ||
     keyword.includes("ikan") ||
     keyword.includes("nasi kuning ||
