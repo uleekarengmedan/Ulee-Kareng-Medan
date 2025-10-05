@@ -92,6 +92,7 @@ function searchMenu() {
     window.location.href = "minuman-dingin.html";
   } else if (
     keyword.includes("nasi gurih telur") ||
+    keyword.includes("nasi gurih") ||
     keyword.includes("lontong") ||
     keyword.includes("mie lontong") ||
     keyword.includes("nasi gurih rendang") ||
@@ -159,8 +160,10 @@ function searchMenu() {
     keyword.includes("tom yam seafood") ||
     keyword.includes("soto") ||
     keyword.includes("bebek") ||
+       keyword.includes("capcay") ||
     keyword.includes("nasi goreng") ||
     keyword.includes("ikan") ||
+    keyword.includes("nasi kuning ||
     keyword.includes("ikan lada hitam") ||
     keyword.includes("ikan asam manis") ||
     keyword.includes("sop")
