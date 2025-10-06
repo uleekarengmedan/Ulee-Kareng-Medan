@@ -158,7 +158,7 @@ function searchMenu() {
     keyword.includes("capcay") ||
     keyword.includes("nasi goreng") ||
     keyword.includes("ikan") ||
-    keyword.includes("nasi kuning ||
+    keyword.includes("nasi kuning")||
     keyword.includes("ikan lada hitam") ||
     keyword.includes("ikan asam manis") ||
     keyword.includes("sop")
